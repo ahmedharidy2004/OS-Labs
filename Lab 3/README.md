@@ -2,24 +2,18 @@
 
 Processing food delivery orders one by one is _so_ last century. This lab simulates a high-demand delivery platform by using **forking** to process batches of orders in parallel.
 
-+1
-
 ---
 
 ## 🚀 The Mission
 
 You need to write a C program that acts as a platform manager (parent process) which spawns N dispatchers (child processes) to calculate free-delivery eligibility across a batch of orders.
 
-+1
-
 ### Dispatcher Logic
 
 Each dispatcher is responsible for a specific batch of orders and must:
 
 - **Calculate Total Price**: Multiply the number of items by the price per item.
-    
-    +1
-    
+
 - **Determine Eligibility**: If the total price is ≥V (minimum order value), the order qualifies for free delivery.
     
 - **Report Results**: Count the eligible orders in their batch and send that count back to the parent.
@@ -66,7 +60,6 @@ The output must be a single line containing N space-separated integers represent
 
 - **No Assumptions**: Do not assume children PIDs are sequential or greater than the parent PID.
     
-    +2
     
 - **No Standard Input**: Use command-line arguments only; `scanf` or `gets` will cause a timeout.
     
