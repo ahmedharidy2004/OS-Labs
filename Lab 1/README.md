@@ -66,6 +66,3 @@ The main script req_1_firstName_secondName_ID.sh implements the following automa
 2. Execute the script:  
     ./req_1_firstName_secondName_ID.sh  
     
-    
-
-ID: [Your ID]**
