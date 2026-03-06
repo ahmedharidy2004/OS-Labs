@@ -1,0 +1,15 @@
+CC = gcc
+CFLAGS = -Wall -Wextra -std=c11
+
+TARGET = sub_tool
+SRCS = sub_tool.c main.c
+OBJS = $(SRCS:.c=.o)
+
+$(TARGET): $(OBJS)
+	$(CC) $(OBJS) -o $(TARGET)
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+clean:
+	rm -f $(OBJS) $(TARGET)
