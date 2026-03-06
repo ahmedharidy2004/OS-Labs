@@ -1,7 +1,5 @@
 # Operating Systems - Lab 1: Bash Scripting
 
-This repository contains the solution for Lab 1 of the Operating Systems course at Cairo University, Computer Engineering Department.
-
 ## Overview
 
 The goal of this lab is to practice Linux command-line operations and Bash scripting, focusing on:
