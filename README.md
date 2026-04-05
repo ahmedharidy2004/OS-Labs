@@ -10,7 +10,7 @@ Code implementations for the Operating Systems course labs.
 |-----|-------|----------|
 | Lab 1 | Bash Scripting — file manipulation, hex/decimal conversion, parentheses balancing | Bash |
 | Lab 2 | Process Forking — concurrent order processing with parent/child processes | C |
-| Lab 3 | Process Forking — food delivery dispatcher simulation using fork & pipes | C |
+| Lab 3 | Process Forking — food delivery dispatcher simulation using fork | C |
 | Lab 4 | Signals — concurrent file-size search with signal-based coordination between processes | C |
 | Lab 5 | IPC — inter-process communication using message queues and shared memory + semaphores | C |
 
